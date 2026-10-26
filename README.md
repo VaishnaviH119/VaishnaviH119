@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-# Hi, I'm Vaishnavi 👋
+# Hi, I'm Vaishnavi 
 
 ### Python Backend Developer | Data Analytics | AI
 
