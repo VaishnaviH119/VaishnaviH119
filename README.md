@@ -10,31 +10,34 @@ I enjoy working with Python, databases, API development, and data analysis.
 
 ## 🚀 Featured Projects
 
-### 1. StockPilot — Inventory & Order Management API
+#### 1. StockPilot — Inventory & Order Management API
 
-**Tech Stack:** Python · Django REST Framework · PostgreSQL
+**Tech Stack:** Python · Django REST Framework · PostgreSQL · Pytest
 
-An inventory management backend project focused on product management, order processing, and stock tracking.
+A backend-only REST API for managing products, processing customer orders, and tracking inventory.
 
-- REST API development
-- Product and inventory management
-- Database integration
-- Request validation and automated testing
-
+- Product CRUD with SKU validation, search, ordering, and pagination
+- Authentication and staff-based permissions
+- Transactional order creation with server-calculated prices and stock updates
+- PostgreSQL row locking to help prevent overselling
+- 15 automated tests covering validation, permissions, rollback, and concurrent orders
+  
 🔗 [View StockPilot on GitHub](https://github.com/VaishnaviH119/stockpilot-inventory-order-api)
-
 *Status: In progress.*
 
-### 2. Nassau Candy — Profitability and Margin risk analysis dashboard
 
-**Tech Stack:** Python · Pandas · Streamlit · SQL / Power BI (as implemented)
+### 2. Nassau Candy — Profitability & Margin Risk Analysis Dashboard
 
-A sales analytics project exploring product performance, revenue, profitability, and business trends.
+**Tech Stack:** Python · Pandas · NumPy · Plotly · Streamlit · Git/GitHub
 
-- Data cleaning and exploratory data analysis
-- Product and regional performance analysis
-- Sales and profitability metrics
-- Interactive dashboard and business insights
+A product-line profitability analysis of 10,194 orders across 15 products and 3 divisions, with a deployed interactive dashboard that flags margin risk.
+
+- Data cleaning, validation, and exploratory data analysis
+- KPI engineering: gross margin, profit per unit, revenue/profit contribution, margin volatility
+- Pareto and cost-structure analysis: 5 of 15 products generate 95.1% of profit; Kazookles flagged at a 7.7% margin
+- Streamlit dashboard with 4 analysis tabs, 5 filters, automatic low-margin alerts, and CSV export
+
+🔗 [Live Dashboard](https://dataanalytics1234.streamlit.app) · [Source Code](https://github.com/VaishnaviH119/nassau-candy-analysis)
 
 🔗 [View Nassau Candy on GitHub](https://github.com/VaishnaviH119/nassau-candy-analysis)
 
