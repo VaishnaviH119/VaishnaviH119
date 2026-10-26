@@ -25,7 +25,7 @@ An inventory management backend project focused on product management, order pro
 
 *Status: In progress.*
 
-### 2. Nassau Candy — Sales Analytics Dashboard
+### 2. Nassau Candy — Profitability and Margin risk analysis dashboard
 
 **Tech Stack:** Python · Pandas · Streamlit · SQL / Power BI (as implemented)
 
