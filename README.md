@@ -38,7 +38,8 @@ A product-line profitability analysis of 10,194 orders across 15 products and 3 
 - Pareto and cost-structure analysis: 5 of 15 products generate 95.1% of profit; Kazookles flagged at a 7.7% margin
 - Streamlit dashboard with 4 analysis tabs, 5 filters, automatic low-margin alerts, and CSV export
 
-🔗 [Live Dashboard](https://dataanalytics1234.streamlit.app) · [Source Code](https://github.com/VaishnaviH119/nassau-candy-analysis)
+🔗 [Live Dashboard](https://dataanalytics1234.streamlit.app) 
+· [Source Code](https://github.com/VaishnaviH119/nassau-candy-analysis)
 
 🔗 [View Nassau Candy on GitHub](https://github.com/VaishnaviH119/nassau-candy-analysis)
 
