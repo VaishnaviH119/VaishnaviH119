@@ -23,6 +23,7 @@ A backend-only REST API for managing products, processing customer orders, and t
 - 15 automated tests covering validation, permissions, rollback, and concurrent orders
   
 🔗 [View StockPilot on GitHub](https://github.com/VaishnaviH119/stockpilot-inventory-order-api)
+
 *Status: In progress.*
 
 
